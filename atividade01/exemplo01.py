@@ -1,4 +1,4 @@
-with open('arquivo.txt', 'r', encoding='utfe-8') as livro:
+with open('arquivo.txt', 'r', encoding='utf-8') as livro:
     conteudo = livro.read()
     print(conteudo)
     print('------------------')
